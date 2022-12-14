@@ -18,7 +18,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-import aws_exports from '../../../src/aws-exports';
+
 import HookMqttPub from '../components/MqttHooks/HookPub';
 import HookMqttSub from '../components/MqttHooks/HookSub';
 import HookMqttPubIOT from '../components/MqttHooks/HookPubIOT';
