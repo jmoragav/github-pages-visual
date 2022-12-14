@@ -37,5 +37,9 @@
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4",
     "vite": "^2.9.9"
+  },
+  "browser": {
+    "./dist/cjs/runtimeConfig": "./dist/cjs/runtimeConfig.browser",
+    "./dist/es/runtimeConfig": "./dist/es/runtimeConfig.browser"
   }
 }
