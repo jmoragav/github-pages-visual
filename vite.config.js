@@ -7,6 +7,7 @@ export default defineConfig({
  
   plugins: [react(),
   ],
+  base:"/github-pages-visual/",
 
   
  
