@@ -1,4 +1,4 @@
-import {BrowserRouter , Routes, Route} from 'react-router-dom'
+import {HashRouter  , Routes, Route} from 'react-router-dom'
 import { AuthProvider } from './context/AuthProvider'
 import { MaquinasProvider } from './context/MaquinasProvider'
 import AuthLayout from './layouts/AuthLayout'
@@ -15,7 +15,7 @@ import {Buffer} from 'buffer';
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter >
     <AuthProvider>
     <MaquinasProvider>
     <Routes>
@@ -32,7 +32,7 @@ function App() {
       </Routes>
     </MaquinasProvider>
     </AuthProvider>
-    </BrowserRouter>
+    </HashRouter >
   )
 }
 

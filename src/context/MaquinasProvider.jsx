@@ -18,11 +18,12 @@ const MaquinasProvider = ({children}) => {
             //     }
             // }
             try{
-                const {data} = await clienteAxios('/maquinas/')
-                setMaquinas(data)
-                console.log(data)
+                // const {data} = await clienteAxios('/maquinas/')
+                // setMaquinas(data)
+                // console.log(data)
+                setMaquinas([])
             }catch(error){
-                setAuth({})
+                setMaquinas([])
             }
         }
         getDataMaquinas()

@@ -8,8 +8,8 @@ module.exports = {
   entry: "./src/main.jsx",
   output: {
     path: path.resolve(__dirname, "../dist"),
-    filename: "[name].[contenthash].js",
-    publicPath: "/github-pages-visual/",
+    filename: "[name].bundle.js",
+    publicPath: "",
   },
   module: {
     rules: [
