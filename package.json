@@ -2,9 +2,14 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
+  "repository": {
+    "url": "git+https://github.com/jmoragav/github-pages-visual.git"
+  },
   "scripts": {
     "build": "webpack --config config/webpack.prod.js",
-    "dev": "webpack serve --config config/webpack.dev.js"
+    "dev": "webpack serve --config config/webpack.dev.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
