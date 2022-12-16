@@ -10,7 +10,7 @@ import ReactPlayer from 'react-player'
 import RadialGraph from '../components/RadialGraph'
 import ScatterChart from '../components/ScatterChart'
   
-import Vid from '../assets/media/sample.mp4'
+
 import "video-react/dist/video-react.css"; // import css
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
