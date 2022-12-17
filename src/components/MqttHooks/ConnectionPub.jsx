@@ -16,13 +16,16 @@ const myBucket = new AWS.S3({
     region: "sa-east-1",
 })
 const onFinish = () => {
-     
-    const url = `ws://broker.emqx.io:8083/mqtt`;
+    //const url = `ws://broker.emqx.io:8083/mqtt`;
+    const url = `wss://mqtt.flespi.io:443`;
+    
     const options = {
       keepalive: 30,
       protocolId: 'MQTT',
       protocolVersion: 4,
       clean: true,
+      username: "FlespiToken rgo4UBjNsq8hlgIKxYRPRxSpqMatY9Ofd28XrhzIvvPHAlhX7WANih2yR2PFZtI2",
+      password:"",
       reconnectPeriod: 1000,
       connectTimeout: 30 * 1000,
       will: {

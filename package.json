@@ -9,6 +9,7 @@
     "build": "webpack --config config/webpack.prod.js",
     "dev": "webpack serve --config config/webpack.dev.js",
     "predeploy": "npm run build",
+    "start": "serve -s build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -31,6 +32,7 @@
     "react-dom": "^18.0.0",
     "react-player": "^2.11.0",
     "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
     "video-react": "^0.16.0"
   },
   "devDependencies": {
@@ -52,7 +54,9 @@
     "mini-css-extract-plugin": "^2.7.2",
     "postcss": "^8.4.14",
     "postcss-loader": "^7.0.2",
+    "process": "^0.11.10",
     "react-refresh": "^0.14.0",
+    "readable-stream": "^4.2.0",
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",

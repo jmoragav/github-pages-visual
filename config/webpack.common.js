@@ -34,6 +34,7 @@ module.exports = {
         buffer: require.resolve('buffer/'),
     },
     extensions: [".js", ".json", ".jsx"],
+     
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -43,5 +44,13 @@ module.exports = {
     new webpack.ProvidePlugin({
         Buffer: ['buffer', 'Buffer'],
     }),
+    new webpack.ProvidePlugin({
+      _stream_readable: 'readable-stream/readable',
+      }),
+
+      new webpack.ProvidePlugin({
+        process: 'process/browser',
+        }),
   ],
+  
 };
