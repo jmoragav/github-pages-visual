@@ -7,8 +7,8 @@ import { useEffect , useState} from 'react';
 const ConnectionPub = ({ connect, disconnect, videoup, publish, setprog, resetSt, file_bun ,detect}) => {
   const [started, setStarted] = useState(false);
   AWS.config.update({
-    accessKeyId: 'AKIA2KWV7ZFJPWEU7M3S', //env
-    secretAccessKey: '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'
+    accessKeyId: 'AKIA2KWV7ZFJA6GK2R6Q', //env
+    secretAccessKey: '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'
 })
 
 const myBucket = new AWS.S3({
