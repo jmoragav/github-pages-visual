@@ -30,7 +30,7 @@ const onFinish = () => {
       protocolId: 'MQTT',
       protocolVersion: 4,
       clean: true,
-      username: "FlespiToken rgo4UBjNsq8hlgIKxYRPRxSpqMatY9Ofd28XrhzIvvPHAlhX7WANih2yR2PFZtI2",
+      username: "FlespiToken Q12GzEEI7nHLEuJ1KsIte1qd13tGJfbn61Tuvm2tzA21SBQsRoJVdXX4Qeyokxze",
       password:"",
       reconnectPeriod: 1000,
       connectTimeout: 30 * 1000,
