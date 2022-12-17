@@ -12,8 +12,8 @@ const [messages, setMessages] = useState([])
 
 const dominio_cloud="https://d1spirfjvgfz53.cloudfront.net"
 AWS.config.update({
-    accessKeyId: 'AKIA2KWV7ZFJOEEXUPVH', //env
-    secretAccessKey: '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'
+    accessKeyId: 'AKIA2KWV7ZFJGZ7OCW66', //env
+    secretAccessKey: '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'
 })
 
 const myBucket = new AWS.S3({
